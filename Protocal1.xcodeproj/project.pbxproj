@@ -14,6 +14,7 @@
 		EF07F1482814595D00AA35D5 /* Protocal1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF07F1462814595D00AA35D5 /* Protocal1.xcdatamodeld */; };
 		EF07F14A2814596300AA35D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF07F1492814596300AA35D5 /* Assets.xcassets */; };
 		EF07F14D2814596300AA35D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF07F14B2814596300AA35D5 /* LaunchScreen.storyboard */; };
+		EF07F155281459A000AA35D5 /* Protocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07F154281459A000AA35D5 /* Protocal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EF07F1492814596300AA35D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF07F14C2814596300AA35D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF07F14E2814596300AA35D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF07F154281459A000AA35D5 /* Protocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				EF07F13D2814595D00AA35D5 /* AppDelegate.swift */,
 				EF07F13F2814595D00AA35D5 /* SceneDelegate.swift */,
 				EF07F1412814595D00AA35D5 /* ViewController.swift */,
+				EF07F154281459A000AA35D5 /* Protocal.swift */,
 				EF07F1432814595D00AA35D5 /* Main.storyboard */,
 				EF07F1492814596300AA35D5 /* Assets.xcassets */,
 				EF07F14B2814596300AA35D5 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				EF07F1422814595D00AA35D5 /* ViewController.swift in Sources */,
 				EF07F13E2814595D00AA35D5 /* AppDelegate.swift in Sources */,
 				EF07F1402814595D00AA35D5 /* SceneDelegate.swift in Sources */,
+				EF07F155281459A000AA35D5 /* Protocal.swift in Sources */,
 				EF07F1482814595D00AA35D5 /* Protocal1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +302,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
